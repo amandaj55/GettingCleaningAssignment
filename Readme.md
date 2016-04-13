@@ -1,9 +1,9 @@
-## Cleaning and summarising Human Activity Recognition Using Smartphones Dataset
+# Cleaning and summarising Human Activity Recognition Using Smartphones Dataset
 
-# Overview 
+## Overview 
 A data set from experiments with volunteers subdivided into test and training sets, who undertook various activities, was cleaned and summarised. The variables included identifiers for subject, activity, and subset as well as measures derived from an accelerometer and gyrometer. See details of data set below *
 
-# Method
+## Method
 
 * The UCI_HAR_dataset provided was downloaded and unzipped
 * The readme.txt file provided was read. The 7 files listed below** were read into r.
@@ -22,7 +22,7 @@ A data set from experiments with volunteers subdivided into test and training se
 * the group variables were renamed to activity and subject
 * The final data set was written to a text file and uploaded
 
-# Original Data Set
+## Original Data Set
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details.
@@ -33,7 +33,7 @@ Each record included:
 * A 561-feature vector with time and frequency domain variables.
 * Its activity label.
 * An identifier of the subject who carried out the experiment.
-
+* 
 ** The dataset includes the following files:
 'README.txt'
 
@@ -61,12 +61,12 @@ The following files are available for the train and test data. Their description
 
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-# Notes:
+## Notes:
 Features are normalized and bounded within [-1,1].
 Each feature vector is a row on the text file.
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-# License:
+## License:
 Use of this dataset in publications must be acknowledged by referencing the following publication [1]
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
