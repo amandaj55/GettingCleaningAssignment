@@ -33,23 +33,25 @@ Each record included:
 * A 561-feature vector with time and frequency domain variables.
 * Its activity label.
 * An identifier of the subject who carried out the experiment.
-* 
-** The dataset includes the following files:
-'README.txt'
 
-'features_info.txt': Shows information about the variables used on the feature vector.
 
-'features.txt': List of all features.
+ The dataset includes the following files**:
+ 
+* 'README.txt'
 
-'activity_labels.txt': Links the class labels with their activity name.
+* 'features_info.txt': Shows information about the variables used on the feature vector.
 
-'train/X_train.txt': Training set.
+* 'features.txt': List of all features.
 
-'train/y_train.txt': Training labels.
+* 'activity_labels.txt': Links the class labels with their activity name.
 
-'test/X_test.txt': Test set.
+* 'train/X_train.txt': Training set.
 
-'test/y_test.txt': Test labels.
+* 'train/y_train.txt': Training labels.
+
+* 'test/X_test.txt': Test set.
+
+* 'test/y_test.txt': Test labels.
 
 The following files are available for the train and test data. Their descriptions are equivalent.
 
